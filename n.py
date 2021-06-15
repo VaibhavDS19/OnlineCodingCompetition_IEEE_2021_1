@@ -46,7 +46,15 @@ for i in range(8):
         arrin.append(k)
     arr2.append(arrin)
 
-prob(arr)
-for i in arr2:
+arr3 = []
+print("Enter 64 numbers line by line, so 64 lines")
+for i in range(8):
+    arrin = []
+    for j in range(8):
+        arrin.append(input())
+    arr3.append(arrin)
+
+#choose array
+for i in arr3:
     print(i)
-prob(arr2)
+prob(arr3)
